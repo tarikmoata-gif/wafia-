@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: meyah_app # Change to '.' if meyah_app is your repo root
+        # Adjust this to match where pubspec.yaml is located in the repo (e.g. '.' or 'meyah_app')
+        working-directory: .
 
     steps:
       - uses: actions/checkout@v4
